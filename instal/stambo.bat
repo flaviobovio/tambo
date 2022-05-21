@@ -1,0 +1,3 @@
+c:
+cd\stambo
+tambo

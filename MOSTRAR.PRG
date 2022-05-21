@@ -1,0 +1,60 @@
+FUNCTION MOSTRAR( A_RRAY, L_CONG )
+
+L_CONG=IF(L_CONG=NIL, 0, L_CONG)
+
+CLEAR TYPEAHEAD
+PRIVATE T_ECLA, L_ARGO:=0, P_RINC:=1
+CLS
+AEVAL( A_RRAY, { || L_ARGO++ } )
+PRIVATE C_ANTI := IF( L_ARGO>23, 23, L_ARGO )
+MENSAJE('USE <Pag Ar> <Pag Ab> <'+CHR(24)+'> <'+CHR(25)+'> PARA MOVERSE    <Enter> CONTINUAR')
+@ 1, 0 CLEAR TO 23,79
+AEVAL( A_RRAY,{ | L | QQOUT(L) }, P_RINC, C_ANTI )
+P_RINC=P_RINC+L_CONG
+
+DO WHILE L_ARGO > 23
+
+   T_ECLA = 0
+   DO WHILE T_ECLA#13.AND.T_ECLA#18.AND.T_ECLA#3.AND.T_ECLA#24.AND.T_ECLA#5
+      T_ECLA=INKEY()
+   ENDDO
+   DO CASE
+
+   ***   ENTER   ***
+   CASE T_ECLA = 13
+      RETURN
+
+   ***   PAGE DOWN   ***
+   CASE T_ECLA = 3
+      P_RINC=IF( P_RINC+C_ANTI+23-L_CONG<=L_ARGO, P_RINC+C_ANTI-L_CONG , L_ARGO-22+L_CONG)
+
+   ***   PAGE UP   ***
+   CASE T_ECLA = 18
+      P_RINC=IF( P_RINC-C_ANTI>L_CONG, P_RINC-C_ANTI+L_CONG , L_CONG+1 )
+
+   ***   FLECHA ABAJO   ***
+   CASE T_ECLA = 24
+      IF P_RINC+C_ANTI-L_CONG<=L_ARGO
+         P_RINC++
+         SCROLL( L_CONG+1, 0,23,79, 1)
+         @23, 0 CLEAR TO 23,79
+         QQOUT( A_RRAY[P_RINC+22-L_CONG])
+      ENDIF
+      LOOP
+
+   ***   FLECHA ARRIBA   ***
+   CASE T_ECLA = 5
+      IF P_RINC-1 > L_CONG
+         P_RINC--
+         SCROLL( L_CONG+1, 0,23,79,-1)
+         @ L_CONG+1, 0 CLEAR TO  1,79
+         QQOUT( A_RRAY[P_RINC])
+      ENDIF
+      LOOP
+
+   ENDCASE
+
+   @ L_CONG+1, 0 CLEAR TO 23,79
+   AEVAL( A_RRAY,{ | L | QQOUT(L) }, P_RINC, C_ANTI-L_CONG )
+
+ENDDO

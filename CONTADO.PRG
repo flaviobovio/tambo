@@ -1,0 +1,18 @@
+FUNCTION CONTADO( X )
+COUNT FOR !MARCA .AND. LEFT(MOTIV1,1)#'F' TO VA
+CC=SPACE(4)
+GG=0
+GO TOP
+DO WHILE !EOF()
+   IF CODVAC#CC
+      DO CASE
+         CASE X = 1 .AND. MARCA
+            GG=GG+1
+         CASE X = 2 .AND. !MARCA
+            GG=GG+1
+      ENDCASE
+      CC=CODVAC
+   ENDIF
+   SKIP
+ENDDO
+RETURN GG

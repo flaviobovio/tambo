@@ -1,0 +1,15 @@
+***   M = ExpC , B = ExpL   ***
+FUNCTION MENSAJE( M, B )
+
+PRIVATE COL:=SETCOLOR()
+B=IF( B = NIL, .F., B )
+
+SETCOLOR(INVER)
+@24, 0 SAY PADC( M,80)
+SETCOLOR(COL)
+
+IF B
+   TONE (136,4)
+ENDIF
+
+RETURN

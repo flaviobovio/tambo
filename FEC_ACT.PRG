@@ -1,0 +1,30 @@
+PROCEDURE FEC_ACT()
+CLS
+PUBLIC DIA := DATE()
+SELECT CONFIG
+DO WHILE .T.
+   @  5,17 TO 11,62 DOUBLE
+   @  7,19 SAY "LA FECHA ACTUAL ES "
+   @  7,38 SAY DATES(DIA,4)
+   @  9,35 GET DIA
+   MENSAJE("< R > REINGRESAR FECHA    < Enter > PARA CONTINUAR...")
+   X=0
+   DO WHILE X#13 .AND. UPPER(CHR(X))#'R'
+      X=INKEY()
+   ENDDO
+   IF X=13
+      CLEAR GETS
+      IF FIELD->FECHA # DIA
+         ACT_DIA()
+      ENDIF
+
+      RETURN
+   ELSE
+      @ 7,38 CLEAR TO  7,60
+      @24, 0 CLEAR
+      SET CURSOR ON
+      READ
+      SET CURSOR OFF
+   ENDIF
+
+ENDDO
