@@ -1,6 +1,6 @@
-#TAMBO#
+# TAMBO
 
-##Funcionalidades##
+## Funcionalidades
 
 **1 - Ingreso / Modificación y baja de Vacas**
 
