@@ -28,11 +28,11 @@
     - Personalizados por el usuario
 
 **Informes**
-     - Evaluación Reproductiva
-     - Bajas
-     - Proyección Física del Tambo
-     - Stock de Semen
-     - Distribución de vacas en según cantidad partos y días de lactancia
+    - Evaluación Reproductiva
+    - Bajas
+    - Proyección Física del Tambo
+    - Stock de Semen
+    - Distribución de vacas en según cantidad partos y días de lactancia
 
 **Varios**
     - Respaldo de y restauración de datos
