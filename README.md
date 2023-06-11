@@ -1,28 +1,42 @@
 # TAMBO
 
-## Funcionalidades
+## Autor: Flavio Bovio
 
-**1 - Ingreso / Modificación y baja de Vacas**
+## Lenguaje de programación: Clipper 5 para MS-DOS
 
-Le permite ingresar, modificar y borrar datos, dar de baja una vaca y ver/imprimir la ficha de una vaca.
+## Inicio/Fin Proyecto: 1991-02-01 / 1992-09-04
 
-**2 - Listados**
+## Objectivo del proyecto
+    - Organizar la gestión operativa, comercial y sanitaria del tambo
+    - Obtener infomación de producción, rendimiento y proyección del tambo
 
-    Ver/imprimir listado general de vacas, servicios, enfermería, etc.
+## Funcionalidades del sistema
 
-**3 - Informes**
+**ABM Vacas y Novedades**
+    - Vacas
+    - Servicios
+    - Partos
+    - Enfermería
+    - Control lechero
+ 
+**Listados por pantalla e impresos**
+    - General
+    - Servicios
+    - Enfermería
+    - Rodeos
+    - Producción
+    - Personalizados por el usuario
 
-     - Evaluación Reproductiva.
-     - Bajas. 
-     - Proyección Física del Tambo.
-     - Stock de Semen.
-     - Distribución de vacas en según cantidad partos y días de lactancia. 
+**Informes**
+     - Evaluación Reproductiva
+     - Bajas
+     - Proyección Física del Tambo
+     - Stock de Semen
+     - Distribución de vacas en según cantidad partos y días de lactancia
 
-
-**4 - Varios**
-
+**Varios**
     - Respaldo de y restauración de datos
     - Parámetros del Sistema
-    - Tablas auxiliares de Enfermedades, Tratamientos, Toros e Inseminadores.
+    - Tablas auxiliares de Enfermedades, Tratamientos, Toros e Inseminadores
  
    
