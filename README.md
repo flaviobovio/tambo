@@ -10,33 +10,33 @@
     - Organizar la gestión operativa, comercial y sanitaria del tambo
     - Obtener infomación de producción, rendimiento y proyección del tambo
 
-### Funcionalidades del sistema
+## Funcionalidades del sistema
 
 **ABM Vacas y Novedades**
-    - Vacas
-    - Servicios
-    - Partos
-    - Enfermería
-    - Control lechero
- 
+ - Vacas
+ - Servicios
+ - Partos
+ - Enfermería
+ - Control lechero
+
 **Listados por pantalla e impresos**
-    - General
-    - Servicios
-    - Enfermería
-    - Rodeos
-    - Producción
-    - Personalizados por el usuario
+ - General
+ - Servicios
+ - Enfermería
+ - Rodeos
+ - Producción
+ - Personalizados por el usuario
 
 **Informes**
-    - Evaluación Reproductiva
-    - Bajas
-    - Proyección Física del Tambo
-    - Stock de Semen
-    - Distribución de vacas en según cantidad partos y días de lactancia
+ - Evaluación Reproductiva
+ - Bajas
+ - Proyección Física del Tambo
+ - Stock de Semen
+ - Distribución de vacas en según cantidad partos y días de lactancia
 
 **Varios**
-    - Respaldo de y restauración de datos
-    - Parámetros del Sistema
-    - Tablas auxiliares de Enfermedades, Tratamientos, Toros e Inseminadores
- 
-   
+ - Respaldo de y restauración de datos
+ - Parámetros del Sistema
+ - Tablas auxiliares de Enfermedades, Tratamientos, Toros e Inseminadores
+
+
