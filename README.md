@@ -7,8 +7,8 @@
 ### Inicio/Fin Proyecto: 1991-02-01 / 1992-09-04
 
 ### Objectivo del proyecto
-    - Organizar la gestión operativa, comercial y sanitaria del tambo
-    - Obtener infomación de producción, rendimiento y proyección del tambo
+ - Organizar la gestión operativa, comercial y sanitaria del tambo
+ - Obtener infomación de producción, rendimiento y proyección del tambo
 
 ## Funcionalidades del sistema
 
