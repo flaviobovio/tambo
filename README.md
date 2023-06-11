@@ -1,16 +1,16 @@
-# **TAMBO
+#TAMBO
 
-**) Funcionalidades
+##Funcionalidades
 
-**1 - Ingreso / Modificación y baja de Vacas
+**1 - Ingreso / Modificación y baja de Vacas**
 
 Le permite ingresar, modificar y borrar datos, dar de baja una vaca y ver/imprimir la ficha de una vaca.
 
-**2 - Listados
+**2 - Listados**
 
     Ver/imprimir listado general de vacas, servicios, enfermería, etc.
 
-**3 - Informes
+**3 - Informes**
 
      - Evaluación Reproductiva.
      - Bajas. 
@@ -19,7 +19,7 @@ Le permite ingresar, modificar y borrar datos, dar de baja una vaca y ver/imprim
      - Distribución de vacas en según cantidad partos y días de lactancia. 
 
 
-**4 - VARIOS
+**4 - Varios**
 
     - Respaldo de y restauración de datos
     - Parámetros del Sistema
